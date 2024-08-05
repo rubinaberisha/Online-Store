@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Store</title>
+    <link rel="stylesheet" href="style.css" />
+        <script src="store.js" async></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+    <main>
+        <div class="cartItems">
+      <section class="container content-section">
+          
+  
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Item</span>
+            <span class="cart-price cart-header cart-column">Price</span>
+            <span class="cart-quantity cart-header cart-column">Quantity</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">Purchase</button>
+    </section>
+  </div>
+    </main>
+ 
+
+    <script src="https://sdks.shopifycdn.com/js-buy-sdk/v2/latest/index.umd.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>
